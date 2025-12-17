@@ -6,7 +6,8 @@ The primary goal of this project was to develop a standalone Java application to
 Objective: To implement a full CRUD (Create, Read, Update, Delete) system.
 Learning Focus: Mastering the HashMap for efficient data retrieval and Java's java.io package for permanent data storage.
 
-**2. Setup and Installation Instructions**
+**2. Setup and Installation Instructions**:
+
 To get this project running on your local machine, follow these steps:
 
 JDK Requirement: Ensure you have JDK 11 or higher installed.
@@ -19,13 +20,15 @@ Execution: Run the Main.java file.
 
 Storage: On the first run, the system will look for employees.txt in the project root. If not found, it will be created automatically upon adding the first employee.
 
-**3. Code Structure Explanation**
+**3. Code Structure Explanation**:
+
 Class,Role,Technical Highlights
 Employee,Data Model,"A Plain Old Java Object (POJO) containing fields: id, name, department, and salary."
 EmployeeManager,Business Logic,"Manages the HashMap<Integer, Employee>. Contains methods for adding, deleting, and searching records."
 Main,User Interface,"Handles the console menu, user input via Scanner, and calls the appropriate manager methods."
 
-**4. Data Format Specification**
+**4. Data Format Specification**:
+
 The system stores data in a delimited flat-file format to ensure simplicity and readability.
 
 File Name: employees.txt
@@ -37,14 +40,16 @@ Schema: [EmployeeID],[Name],[Department],[Salary]
 Example: 101,John Doe,Software,85000.0
 
 
-**5. File Handling Procedures**
+**5. File Handling Procedures**:
+
 This project implements Persistence through the following procedures:
 
 Initialization (Read): When the application starts, it triggers a loadFromFile() method. It reads employees.txt line-by-line using a BufferedReader or Scanner, splits the string by commas, and populates the HashMap.
 
 State Sync (Write): To ensure data is never lost, the system performs a "Full Write" whenever the data is modified. It iterates through the HashMap and writes the entire current state to employees.txt using a BufferedWriter or PrintWriter.
 
-**6. Employee Management Workflows**
+**6. Employee Management Workflows**:
+
 The application follows a predictable workflow to ensure data integrity:
 
 Search Workflow: User enters an ID → System checks if the ID exists as a "Key" in the HashMap → If found, the Employee object is displayed; if not, an error message is shown.
@@ -53,7 +58,8 @@ Addition Workflow: User enters details → System checks if ID is unique → Emp
 
 Deletion Workflow: User enters ID → System removes the entry from the Map → File is updated to reflect the removal.
 
-**7. Explanation of Technical Requirements**
+**7. Explanation of Technical Requirements**:
+
 HashMap Performance: By using an ID as the key, the system achieves O(1) time complexity for lookups, making it extremely fast regardless of how many employees are added.
 
 Collections Framework: This project demonstrates the transition from simple Arrays to the more flexible Collections framework.
