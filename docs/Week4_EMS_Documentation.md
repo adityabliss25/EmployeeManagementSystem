@@ -1,5 +1,6 @@
                                                       Employee Management System (EMS) Documentation
-**1. Project Overview and Objectives**
+**1. Project Overview and Objectives**:
+
 The primary goal of this project was to develop a standalone Java application to manage employee records. This project focuses on moving beyond basic variables to using data structures for organization and file persistence for storage.
 
 Objective: To implement a full CRUD (Create, Read, Update, Delete) system.
