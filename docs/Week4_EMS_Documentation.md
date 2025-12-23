@@ -30,6 +30,7 @@ Main,User Interface,"Handles the console menu, user input via Scanner, and calls
 ### UML Class Diagram
 [![UML Class Diagram](Images/UML Diagram for Employee management system.png)
 ](https://github.com/adityabliss25/EmployeeManagementSystem/blob/master/docs/Images/UML%20Diagram%20for%20Employee%20management%20system.png)
+
 **4. Data Format Specification**:
 
 The system stores data in a delimited flat-file format to ensure simplicity and readability.
@@ -72,4 +73,5 @@ Error Handling: The system includes try-catch blocks to handle IOException durin
 **7. Console Execution**:
 
 ### Console Output
-![Application Screenshot](/Images/Employee Management Output Console.png)
+[![Application Screenshot](/Images/Employee Management Output Console.png)
+](https://github.com/adityabliss25/EmployeeManagementSystem/blob/master/docs/Images/Employee%20Management%20Output%20Console.png)
