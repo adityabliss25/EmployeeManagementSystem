@@ -28,8 +28,8 @@ EmployeeManager,Business Logic,"Manages the HashMap<Integer, Employee>. Contains
 Main,User Interface,"Handles the console menu, user input via Scanner, and calls the appropriate manager methods."
 
 ### UML Class Diagram
-![UML Class Diagram](Images/UML Diagram for Employee management system.png)
-
+[![UML Class Diagram](Images/UML Diagram for Employee management system.png)
+](https://github.com/adityabliss25/EmployeeManagementSystem/blob/master/docs/Images/UML%20Diagram%20for%20Employee%20management%20system.png)
 **4. Data Format Specification**:
 
 The system stores data in a delimited flat-file format to ensure simplicity and readability.
