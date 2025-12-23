@@ -72,4 +72,4 @@ Error Handling: The system includes try-catch blocks to handle IOException durin
 **7. Console Execution**:
 
 ### Console Output
-![Application Screenshot](images/console_output.png)
+![Application Screenshot](docs/Images/Employee Management Output Console.png)
