@@ -27,6 +27,9 @@ Employee,Data Model,"A Plain Old Java Object (POJO) containing fields: id, name,
 EmployeeManager,Business Logic,"Manages the HashMap<Integer, Employee>. Contains methods for adding, deleting, and searching records."
 Main,User Interface,"Handles the console menu, user input via Scanner, and calls the appropriate manager methods."
 
+### UML Class Diagram
+![UML Class Diagram](images/uml_diagram.png)
+
 **4. Data Format Specification**:
 
 The system stores data in a delimited flat-file format to ensure simplicity and readability.
@@ -66,3 +69,7 @@ Collections Framework: This project demonstrates the transition from simple Arra
 
 Error Handling: The system includes try-catch blocks to handle IOException during file operations, preventing the program from crashing if the file is missing or corrupted.
 
+**7. Console Execution**:
+
+### Console Output
+![Application Screenshot](images/console_output.png)
